@@ -1,0 +1,402 @@
+// 颜色
+.cf {
+  color: #ffffff;
+}
+
+.c3 {
+  color: #333333;
+}
+
+.c0 {
+  color: #000000;
+}
+
+.cfc {
+  color: #2ddcfc;
+}
+
+.c6 {
+  color: #666666;
+}
+
+.c9 {
+  color: #999999;
+}
+
+.c8 {
+  color: #EBEBEB;
+}
+
+.c7 {
+  color: #92D9FF
+}
+
+.c8 {
+  color: #8BD6FF;
+}
+
+.cred {
+  color: red;
+}
+
+.cgren {
+  background-color: greenyellow;
+}
+
+.ofh {
+  overflow: hidden;
+}
+
+.ofa {
+  overflow: auto;
+}
+
+// 阻止点击事件 
+.preventClick {
+  pointer-events: none;
+}
+
+.preventClickImage {
+  pointer-events: none;
+  opacity: 0.8
+}
+
+.preventStyle {
+  opacity: 0.5;
+}
+
+
+.wih100 {
+  width: 100%;
+}
+
+.ht100 {
+  height: 100%;
+}
+
+.bore {
+  border: 1px solid #eee;
+}
+
+.bor50 {
+  border-radius: 50%;
+}
+
+.ti1 {
+  text-indent: 1em
+}
+
+// 宽度
+@for $i from 1 through 1920 {
+  .w#{$i} {
+    width: (1px * $i) !important;
+  }
+}
+
+// 高度
+@for $i from 1 through 1920 {
+  .h#{$i} {
+    height: (1px * $i) !important;
+  }
+}
+
+@for $i from 1 through 1920 {
+  .lh#{$i} {
+    line-height: (1px * $i)
+  }
+}
+
+// 字体
+@for $i from 1 through 100 {
+  .f#{$i} {
+    font-size: (1px * $i) !important;
+  }
+}
+
+// 文字对齐
+.tl {
+  text-align: left !important;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+// 居中
+
+// 浮动与清除浮动
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fix {
+  *zoom: 1;
+}
+
+.fix:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.cp {
+  cursor: pointer
+}
+
+// 显示
+.dn {
+  display: none;
+}
+
+.di {
+  display: inline;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.dt {
+  display: table;
+}
+
+div.dib {
+  *display: inline;
+  *zoom: 1;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+.vib {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// 定位
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.pf {
+  position: fixed;
+}
+
+
+@for $i from 1 through 1000 {
+  .fw#{$i} {
+    font-weight: (1 * $i) !important;
+  }
+}
+
+.jcsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.jcfs {
+  display: flex;
+  justify-content: flex-start;
+  // align-content: flex-start;
+  // flex-wrap: wrap;
+}
+
+.jcsa {
+  display: flex;
+  justify-content: space-around;
+  // align-content: flex-start;
+  // flex-wrap: wrap;
+}
+
+//
+.vas {
+  vertical-align: super !important;
+}
+
+.vam {
+  vertical-align: middle !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.df {
+  display: flex;
+}
+
+// 盒子模型
+// padding
+@for $i from 1 through 1920 {
+  .p#{$i} {
+    padding: (1px * $i) !important;
+  }
+}
+
+@for $i from 1 through 1920 {
+  .pt#{$i} {
+    padding-top: (1px * $i) !important;
+  }
+}
+
+@for $i from 1 through 1920 {
+  .pb#{$i} {
+    padding-bottom: (1px * $i) !important;
+  }
+}
+
+@for $i from 1 through 1920 {
+  .pl#{$i} {
+    padding-left: (1px * $i) !important;
+  }
+}
+
+@for $i from 1 through 1920 {
+  .pr#{$i} {
+    padding-right: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .px#{$i} {
+    padding: 0 (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .py#{$i} {
+    padding: (1px * $i) 0;
+  }
+}
+
+// margin
+@for $i from 1 through 1920 {
+  .m#{$i} {
+    margin: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .mt#{$i} {
+    margin-top: (1px * $i) !important;
+  }
+}
+
+@for $i from 1 through 1920 {
+  .mb#{$i} {
+    margin-bottom: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .ml#{$i} {
+    margin-left: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .mr#{$i} {
+    margin-right: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .mx#{$i} {
+    margin: 0 (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .my#{$i} {
+    margin: (1px * $i) 0;
+  }
+}
+
+@for $i from -100 through 1920 {
+  .top#{$i} {
+    top: (1px * $i);
+  }
+}
+
+@for $i from -100 through 1920 {
+  .left#{$i} {
+    left: (1px * $i);
+  }
+}
+
+@for $i from -100 through 1920 {
+  .right#{$i} {
+    right: (1px * $i);
+  }
+}
+
+@for $i from -100 through 1920 {
+  .bottom#{$i} {
+    bottom: (1px * $i);
+  }
+}
+
+// 边框
+@for $i from 1 through 1920 {
+  .br#{$i} {
+    border-right: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .bl#{$i} {
+    border-left: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .bt#{$i} {
+    border-top: (1px * $i);
+  }
+}
+
+@for $i from 1 through 1920 {
+  .bb#{$i} {
+    border-bottom: (1px * $i);
+  }
+}
+
+
+//文本n行溢出隐藏  	@include
+@mixin ellipsisBasic($clamp:2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $clamp;
+}
+
+// .el-pagination {
+//   .is-active {
+//     background: red;
+//   }
+// }
+
+// .el-pagination.is-background .el-pager li:not(.is-disabled).is-active {
+//   background-color: red !important;
+// }
